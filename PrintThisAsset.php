@@ -1,5 +1,5 @@
 <?php
-namespace yii2assets\printthis;
+namespace susilolab\printthis;
 
 use yii\web\AssetBundle;
 
