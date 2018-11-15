@@ -35,7 +35,6 @@ class PrintThis extends Widget
     {
         PrintThisAsset::register($this->view);
 
-
         $jsOptions = Json::encode($this->options);
         $js = "$(\"#".$this->htmlOptions['btnId']."\").click(function(){
               $(\"#".$this->id."\").printThis(".$jsOptions.");
